@@ -7,7 +7,7 @@ Steps are the following:
 2. The Dockerfile will do:
 
       A. Create maven container <br />
-test        
+      
       --> copy pom.xml to /tmp <br />
       --> copy folder "src" to /tmp/src <br />
       -->  Go to /tmp folder then run "mvn package"<br />
